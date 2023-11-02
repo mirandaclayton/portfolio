@@ -1,0 +1,54 @@
+body 
+{
+    background-color: #515A5A;
+    color: white;
+    font-family: 'helvetica';
+    font-weight:200;
+}
+
+header
+{
+    background-color: teal;
+    
+}
+#logo_img
+{
+    width: 15%;
+    float: left;
+    padding-right: 20px;
+}
+
+#headshot
+{
+    width: 300px;
+}
+
+#intro
+{
+  
+}
+
+h1
+{
+    font-weight: 400;
+    font-size: 250%;
+    vertical-align: middle;
+   
+}
+
+h2
+{
+    padding-top: -5px;
+}
+
+p
+{
+    width: 70%;
+}
+
+#skills
+{
+    color: white;
+}
+
+
