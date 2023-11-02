@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <title>Miranda Clayton Portfolio Home</title>
+
+    <link rel="stylesheet" type="text/css" href="portfolio_stylesheet.css">
+</head>
+<body>
+<header>
+    
+    </header>
+    <br>
+<section>
+    <br>
+    <img class="float-left" src="https://static.wixstatic.com/media/d891c1_270579ea1cf9470da0a9e9e15d86c45d~mv2.png/v1/fill/w_340,h_295,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Black%20White%20Modern%20Handwritten%20Square%20Studio%20Logo%20(3)_edited.png" id="logo_img">
+    <br>
+    <h1>WEB DESIGNER | UX DESIGNER | DEVELOPER</h1>
+    <img id="headshot" src="https://live.staticflickr.com/65535/53279886611_4342617c7e_h.jpg" >
+    
+</section>               
+   
+
+<section>          
+    <p> I’m Miranda, a creative and vibrant designer with a background in fine art and art education. I love solving problems and I especially love to make things. I’m especially skilled in presenting, project management, and writing. I have been reskilling into tech, with a particular interest in UX Design and Front-End Development, through certifications and coursework in UX Design, coding, and data analytics. I am eager to bring my artistic flair and problem-solving skills to the tech industry.</p><br>
+    
+    <a href="https://linkedin.com/in/mirandalclayton.com/">Connect with me on LinkedIn</a>
+    </section>
+    
+<section id="skills">
+    <h3>Skills</h3>
+    <ul>
+        <li>Figma</li>
+        <li>Adobe XD</li>
+        <li>Adobe CC</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>Python</li>
+        <li>Data analytics</li>
+        <li>Responsive web design</li>
+        <li>Prototyping</li>
+        <li>Wireframing</li>
+        <li>Usability studies</li>
+        <li>Research</li>
+        <li>Visual design</li>
+        <li>Photography</li>
+        <li>Content writing</li>
+        <li>Collaboration</li>
+        <li>Presenting</li>
+        <li>Project manangement</li>
+    </ul>
+    </section>
+    
+<section>
+    <div>
+    <h3>Education & Certifications</h3>
+        <table>
+            <tr>
+                <td><strong>Google UX Design Certificate</strong><br>Google Coursera, 2023</td>
+                <td>Comprehensive mastery of UX design process, encompassing empathizing with users, wireframing, prototyping, and design testing. Proficient in applying design principles and utilizing tools such as Figma and Adobe XD.</td>
+            </tr>
+            <tr>
+                <td><strong>Introduction to Web Development</strong><br>UC Davis through Coursera, 2023</td><td>Web development, dynamic web creation, HTML, CSS, JavaScript, form programming, hosting, content publication.</td>
+            </tr>
+            <tr>
+                <td><strong>Coding Foundations</strong><br>SoloLearn, 2023</td><td>14 courses covering foundations of HTML, SQL, Python, and data analytics.</td>
+            </tr>
+            <tr>
+                <td><strong>Masters of Art Education</strong><br>Virginia Commonwealth University, 2019</td><td>Summa Cum 4.0 GPA, Awardee - full tuition merit scholarship, published dissertation, Graduate Teaching Assistant, Teaching License.</td>
+            </tr>
+            <tr>
+                <td><strong>Bachelors of Fine Arts</strong><br>Florida Southern College, 2013</td><td>Studio art major, English minor, Magna Cum Laude: 3.82 GPA</td>
+            </tr>
+        </table>
+    </div>
+    </section>
+    
+    <section>
+    <h3>Recent Experience</h3>
+        <table>
+            <tr>
+                <td><strong>Freelance Web Designer</strong><br>2023 - Present</td>
+                <td>
+                    <ul>
+                        <li>Developed responsive web designs for clients</li>
+                        <li>Market Research, design concepts, wireframing, prototyping, client communication</li>
+                        <li>Projects including musician portfolio, lifestyle blog, teacher storefront</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>High School Art Teacher</strong><br>Mechanicsville HS<br> 2020-Present</td>
+                <td>
+                   <ul>
+                        <li>Taught Art I-IV, IB Visual Arts, and Darkroom Photography</li>
+                        <li>Excelled as educational project manager, setting and monitoring goals for student success</li>
+                        <li>Developed curriculum to stimulate creative growth and positive user experience</li>
+                        <li>Managed digital content on learning platforms for seamless user experience</li>
+                        <li>Received highest possible observational ratings of Highly Effective 2021, 2022, 2023</li>
+                    </ul>
+                </td>
+            </tr>
+           <tr>
+                <td><strong>Reservations Agent</strong><br>Sonnenalp Resort Vail<br> 2016-2017</td>
+                <td>
+                   <ul>
+                        <li>Led interdepartmental communication to best serve guests in linchpin role</li>
+                        <li>Provided exceedingly high level of service, earning an average score of 91% in evaluations</li>
+                        <li>Extensive product knowledge and software fluency, exceptional attention to detail</li>
+                    </ul>
+                </td>
+            </tr><tr>
+                <td><strong>Gallery Associate</strong><br>Cogswell Gallery<br> 2015-2016</td>
+                <td>
+                   <ul>
+                        <li>Curated gallery with attention to organization and visual design to optimize sales</li>
+                        <li>Comprehensive understanding of product offerings for informed, user-focused interactions</li>
+                        <li>Strategically crafted content across web and social platforms to enhance user experience</li>
+                        <li>Facilitated integration of acquisitions and fostered collaborative artist relationships</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+    
+    
+<footer>
+    <h4>Thanks for looking at my website!</h4>
+    </footer>
+</body>
+</html>
