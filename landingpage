@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<head>
+    <title>Miranda Clayton Portfolio Home</title>
+
+    <!-- going to use internal for right now <link rel="stylesheet" type="text/css" href="portfolio_stylesheet.css">-->
+    
+    <style>
+body 
+        {
+            background-image: url("https://raw.githubusercontent.com/mirandaclayton/portfolio/6db8c267d08cca7c82d09d73e359ef1f551e5696/henry-co-mjPs0heWsek-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+            font-weight: 400;
+            font-family: helvetica, arial, sans-serif;
+        }
+
+#logo
+        {
+            width: 55%;
+            
+        }
+        
+.banner-grid-container 
+        {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        }
+
+.logo-div {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+        
+.h1-div
+        {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; /* Optional: Center content horizontally */
+    padding: 20px; /* Optional: Add padding to flex containers */  
+        }
+
+h1
+        {
+            text-transform: uppercase;
+            text-shadow: 1px 1px 2px teal; 
+            font-weight: 400;
+        }
+
+.bio {
+    display: flex; 
+    margin-left: 10%;
+    margin-right: 10%
+    text-align: left;
+    float: left;
+    font-family: georgia;
+    border: 0px:
+    padding: 2%;
+    background-color: ghostwhite;
+    opacity: .6;
+    transition: transform 0.4s;
+    
+}
+
+.text
+        {
+            opacity: 1;
+            font-size: 125%;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding-bottom: 2px; 
+        }
+
+.bio:hover
+        {
+            transform: scale(1.05);
+        }
+        
+        
+.skills
+        {
+           /*I'm not sure why this is making the whole thing shift up over top of the bio section 
+            background-color: black;
+            opacity: .8;
+            position: absolute;
+            color: white;*/
+        }
+
+#skills
+        {
+            opacity: 1;
+        }
+        
+        
+    </style>
+    
+</head>
+
+<body>
+<header>
+
+    <div class="banner-grid-container">
+        <div class="logo-div"> 
+           
+            <img src="https://raw.githubusercontent.com/mirandaclayton/portfolio/ad3887805692f7155ee30705dacd08ba25668876/Black%20White%20Modern%20Handwritten%20Square%20Studio%20Logo%20(6).png" alt="miranda clayton logo" id="logo">
+            </div> 
+        <div class="h1-div">
+            <h1>UX Designer | Web Developer</h1>
+        </div>
+    
+    </div>
+
+</header>
+
+<div class="bio"> 
+    <div class="text">
+        <p>I’m Miranda, a creative and vibrant designer with a background in fine art and art education. I love solving problems and I especially love to make things. I’m especially skilled in presenting, project management, and writing. I have been reskilling into tech, with a particular interest in UX Design and Front-End Development, through certifications and coursework in UX Design, coding, and data analytics. I am eager to bring my artistic flair and problem-solving skills to the tech industry.</p>
+    </div>
+</div>
+ 
+    <br>
+    
+<div class="skills"> 
+<section id="skills">
+    <h3>Skills</h3>
+    <ul>
+        <li>Figma</li>
+        <li>Adobe XD</li>
+        <li>Adobe CC</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>Python</li>
+        <li>Data analytics</li>
+        <li>Responsive web design</li>
+        <li>Prototyping</li>
+        <li>Wireframing</li>
+        <li>Usability studies</li>
+        <li>Research</li>
+        <li>Visual design</li>
+        <li>Photography</li>
+        <li>Content writing</li>
+        <li>Collaboration</li>
+        <li>Presenting</li>
+        <li>Project manangement</li>
+    </ul>
+    </section>
+    </div> 
+    
+<section>
+    <h3>Education & Certifications</h3>
+        <table>
+            <tr>
+                <td><strong>Google UX Design Certificate</strong>
+                    <br>Google Coursera, 2023</td>
+                <td>Comprehensive mastery of UX design process, encompassing empathizing with users, wireframing, prototyping, and design testing. Proficient in applying design principles and utilizing tools such as Figma and Adobe XD.</td>
+            </tr>
+            <tr>
+                <td><strong>Introduction to Web Development</strong>
+                    <br>UC Davis through Coursera, 2023</td>
+                <td>Web development, dynamic web creation, HTML, CSS, JavaScript, form programming, hosting, content publication.</td>
+            </tr>
+            <tr>
+                <td><strong>Coding Foundations</strong><br>SoloLearn, 2023</td>
+                <td>14 courses covering foundations of HTML, SQL, Python, and data analytics.</td>
+            </tr>
+            <tr>
+                <td><strong>Masters of Art Education</strong>
+                    <br>Virginia Commonwealth University, 2019</td><td>Summa Cum 4.0 GPA, Awardee - full tuition merit scholarship, published dissertation, Graduate Teaching Assistant, Teaching License.</td>
+            </tr>
+            <tr>
+                <td><strong>Bachelors of Fine Arts</strong>
+                    <br>Florida Southern College, 2013</td><!--should i do this wih<small> instead?-->
+                <td>Studio art major, English minor, Magna Cum Laude: 3.82 GPA</td>
+            </tr>
+        </table>
+    
+    </section>
+    
+    <section>
+    <h3>Recent Experience</h3>
+        <table>
+            <tr>
+                <td><strong>Freelance Web Designer</strong>
+                    <br>2023 - Present</td>
+                <td>
+                    <ul>
+                        <li>Developed responsive web designs for clients
+                        </li> <!--is it semantically better to have the closing tag in line or on a new line?-->
+                        <li>Market Research, design concepts, wireframing, prototyping, client communication
+                        </li>
+                        <li>Projects including musician portfolio, lifestyle blog, teacher storefront
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>High School Art Teacher</strong>
+                    <br>Mechanicsville HS
+                    <br>2020-Present</td>
+                <td>
+                   <ul>
+                        <li>Taught Art I-IV, IB Visual Arts, and Darkroom Photography
+                       </li>
+                        <li>Excelled as educational project manager, setting and monitoring goals for student success
+                       </li>
+                        <li>Developed curriculum to stimulate creative growth and positive user experience
+                       </li>
+                        <li>Managed digital content on learning platforms for seamless user experience
+                       </li>
+                        <li>Received highest possible observational ratings of Highly Effective 2021, 2022, 2023
+                       </li>
+                    </ul>
+                </td>
+            </tr>
+           <tr>
+                <td><strong>Reservations Agent</strong><br>Sonnenalp Resort Vail
+                    <br>2016-2017</td>
+                <td>
+                   <ul>
+                        <li>Led interdepartmental communication to best serve guests in linchpin role
+                       </li>
+                        <li>Provided exceedingly high level of service, earning an average score of 91% in evaluations
+                       </li>
+                        <li>Extensive product knowledge and software fluency, exceptional attention to detail
+                       </li>
+                    </ul>
+                </td>
+            </tr><tr>
+                <td><strong>Gallery Associate</strong><br>Cogswell Gallery<br> 2015-2016</td>
+                <td>
+                   <ul>
+                        <li>Curated gallery with attention to organization and visual design to optimize sales</li>
+                        <li>Comprehensive understanding of product offerings for informed, user-focused interactions</li>
+                        <li>Strategically crafted content across web and social platforms to enhance user experience</li>
+                        <li>Facilitated integration of acquisitions and fostered collaborative artist relationships</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>   
+    
+<footer>
+    <h4>Thanks for looking at my website!</h4>
+</footer>
+    
+</body>
+</html> 
